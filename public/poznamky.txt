@@ -1,0 +1,16 @@
+Column Topics znamena: 
+                        0 - ustni odborne
+                        1 - ustni z cestiny
+                        2 - prakticka odborna
+                        3 - prakticka z cestiny (didaktak)
+
+Column quiz_started znamena:
+                        0 - uzivatel nezacal quiz (quiz (otazky) jeste nebyly vegenerovane)
+                        1 - quiz prave probiha
+
+0) funkce nedelat v Common.php ale vytvorit si vlastni knihovny na to
+1) kdyz si uzivatel vytvori ucet tak musim v users_stats a users_current_quiz_stats vytvorit zaznam kde bude jejich id atd.. (udelat na to funkce)
+2) udelat ze mi to z databaze vybere 10 nahodnych otazek a uzivatel bude klikat a potom na konci se mu zobrazi (pocet spravnych a pocet spatnych odpovedi)
+3) udelat login system (to je velice important)
+4) filtrovat podle Topicu (0,1,2,3)
+5) udelat at uzivatel vidi primo kterou otazku ma spatne a kterou ma dobre (seda,zelene nebo cervana barva)
